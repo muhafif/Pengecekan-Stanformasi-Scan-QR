@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-position: center;
+  background-size: cover;
+  background-color: whitesmoke;
+}
+
+/* Create a top navigation bar with a black background color  */
+.topnav {
+    background-color: #252271;
+    overflow: hidden;
+    justify-content: space-between;
+    display: flex;
+    font-size: 1rem;
+    text-align: center;
+    padding: 14px 16px;
+    /*margin: auto;*/
+  }
+
+  .pokoeiki {
+    justify-content: space-between;
+    display: flex;
+    color: black;
+  }
+
+  .card-all {
+    width: auto;
+    height: 134px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #201D60 0%, #845F4B 100%);
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    color: white;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    flex-direction: column;
+    line-height: 26px;
+  }
+
+  .card-riwayat {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
+    color: black;
+    margin-top: 10px;
+    padding: 10px;
+    flex-direction: column;
+    line-height: 26px;
+    margin: 10px;
+  }
+
+  .card-pertama, .card-kedua {
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: auto;
+  }
+
+  .jenenge-sepur {
+    padding-left: 8px;
+  }
+
+  .card-kereta{
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+  }
+
+  .card-group-jadwal {
+    margin: auto;
+    display: flex;
+    font-size: 12px;
+    float: inline-start;
+    justify-content: space-between;
+    
+  }
+
+  .card-icon {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: rgb(255, 165, 9);
+    text-align: center;
+    line-height: 50px;
+    font-size: 11px;
+    justify-content: center;
+    
+  }
+
+  .card-jadwal {
+    float: left;
+  }
+
+  .card-tujuan {
+    float: right
+  }
+
+  .card-kelas {
+    float: right;
+  }
+
+  .footer {
+    background-color: #FF7D34;
+    color: white;
+    position: fixed; /* Ubah menjadi "position: sticky;" jika Anda ingin footer melekat di bawah halaman saat scroll */
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
